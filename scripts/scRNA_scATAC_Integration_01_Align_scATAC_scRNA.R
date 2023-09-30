@@ -20,7 +20,7 @@ source('scripts/aux_functions.R')
 #Input Data
 ####################################################
 
-cortex.rna <- readRDS("data/merged_scRNA_unfiltered_IDs.RDS")
+cortex.rna <- readRDS("data/merged_scRNA_ufiltered_IDs.RDS")
 cortex.atac <- readRDS('data/merged_scATAC_integrated_cicero.RDS')
 
 #Parameters
